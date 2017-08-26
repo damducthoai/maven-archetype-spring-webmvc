@@ -14,7 +14,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <spring.framework.version>4.3.10.RELEASE</spring.framework.version>
         <jackson.databind.version>2.8.9</jackson.databind.version>
-        <org.jackson.version>20170516</org.jackson.version>
+        <org.json.version>20170516</org.json.version>
         <junit.version>3.8.1</junit.version>
     </properties>
 
@@ -79,7 +79,7 @@
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
-            <version>${org.jackson.version}</version>
+            <version>${org.json.version}</version>
         </dependency>
 
         <dependency>

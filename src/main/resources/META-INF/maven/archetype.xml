@@ -1,12 +1,10 @@
 <archetype>
   <id>spring-webmvc</id>
-  <sources>
-    <source>src/main/java/com/butchjgo/web/Index.java</source>
-  </sources>
+
   <resources>
     <resource>src/main/resources/logback.xml</resource>
     <resource>src/main/resources/setting.properties</resource>
-    <resource>src/main/resources/messages_vi.properties</resource>
+    <resource>src/main/resources/messages_vi_VN.properties</resource>
 	<resource>src/main/webapp/WEB-INF/spring-servlet.xml</resource>
 	<resource>src/main/webapp/WEB-INF/web.xml</resource>
 	<resource>src/main/webapp/WEB-INF/resources/style.css</resource>
